@@ -1,0 +1,41 @@
+.web{
+    display: flex;
+    flex-direction: column;
+}
+.title{
+    height: 20px;
+    padding: 8px;
+    background-color: purple;
+    color: white;
+    font-weight: bold;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+    width: 20%;
+    height: 700px;
+    color: white;
+}
+.list > div>img{
+    margin-bottom: -5px;
+}
+.p{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    justify-content: space-around;
+
+}
+.content{
+    display: flex;
+    
+
+}
+.p>div{
+    margin: 10px;
+    width: 350px;
+    height: 300px;
+    border: 1px solid lightslategray;
+    font-size: 24px;
+}

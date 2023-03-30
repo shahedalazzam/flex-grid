@@ -1,0 +1,106 @@
+.grid{
+    display: grid;
+    grid-template: 1fr 1fr 1fr/ 1fr 1fr 1fr;
+    margin: 0 auto;
+}
+
+.box1{
+    text-align: center;
+    color: red;
+    background: green;
+    margin: 1px;
+}
+
+.box2{
+    text-align: center;
+    color: red;
+    background: yellow;
+    margin: 1px;
+}
+.box5{
+    text-align: center;
+    color: red;
+    background: lightskyblue;
+    margin: 1px;
+}
+.box6{
+    text-align: center;
+    color: red;
+    background: pink;
+    margin: 1px;
+}
+.box7{
+    text-align: center;
+    color: red;
+    background: rgb(219, 14, 151);
+    margin: 1px;
+}
+.box8{
+    text-align: center;
+    color: red;
+    background: blue;
+    margin: 1px;
+}
+.box3{
+    text-align: center;
+    color:red;
+    background: rgb(180, 255, 67);
+    display: flex;
+    flex-direction: column;
+}
+
+.table{
+    display: flex;
+    justify-content: space-between;
+    border-color: aliceblue;
+}
+.td{
+    background: lightgreen;
+    width: 300px;
+}
+
+.box4{
+    text-align: center;
+    color: red;
+    background: rgb(244, 189, 87);
+    display: flex;
+    flex-direction: column;
+}
+.box4-1{
+    align-self: flex-start;
+    text-align: center;
+    background: purple;
+    margin: 1px;
+    width: 33.3%;
+}
+.box4-2{
+    align-self: center;
+    text-align: center;
+    background: rgb(237, 137, 233);
+    margin: 1px;
+    width: 33.3%;
+}
+.box4-3{
+    align-self: flex-end;
+    text-align: center;
+    background: darkblue;
+    margin: 1px;
+    width: 33.3%;
+}
+.box9{
+    text-align: center;
+    color: red;
+    display: flex;
+    flex-direction: column;
+    background: brown;
+}
+.tap{
+    display: flex;
+    justify-content: space-between;
+
+}
+.tap >div{
+    margin: 1px;
+    width: 25%;
+    background: orange;
+}

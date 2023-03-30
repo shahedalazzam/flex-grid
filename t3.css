@@ -1,0 +1,53 @@
+*{
+    margin: 1px;
+}
+body{
+    font-size: 24px;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.flexH{
+    background: #e7bbde;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+.flexM{
+    display: flex;
+    flex: 1;
+}
+.flex2{
+    background: #ff981a;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flex3{
+    background: #10f708;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flex4{
+    background: #ff0000;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flex5{
+    background: #8daae7;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flex6{
+    background: #b550ab;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}.flex7{
+    background: #d3c9c9;
+    padding-top: 3rem;
+    flex: 1 1 5rem;
+}
+.flexF{
+    background: #5070b5;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}

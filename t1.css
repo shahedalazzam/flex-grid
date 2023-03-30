@@ -1,0 +1,40 @@
+#parentContainer {
+    width: 400px;
+    height: 400px;
+    background-color: #f34590;
+    margin: auto;
+    position: relative;
+
+  }
+  #ch {
+    width: 385px;
+    height: 385px;
+    background-color: #10c80a;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #ch1 {
+    width: 100px;
+    height: 100px;
+    background-color: #673a06;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  #ch2 {
+    width: 85px;
+    height: 85px;
+    background-color: #2fcd59;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  body{
+    text-align: center;
+  }
+

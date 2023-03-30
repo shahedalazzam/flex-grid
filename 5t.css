@@ -1,0 +1,56 @@
+.job{
+    display: grid;
+    grid-template-areas:'Jobapp Jobapp Jobapp Jobapp Jobapp Jobapp'
+                        'first-name first-name first-name last-name last-name last-name'                        
+                        'email email email job-role job-role job-role'                        
+                        'address address address address address address'                        
+                        'city city city pincode pincode pincode'                        
+                        'date date date cv cv cv'                        
+                        'apply apply apply apply apply apply';
+
+
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    width: 600px;
+    gap: 20px;
+    justify-content: center;
+}
+.jobapp{
+    grid-area: Jobapp;
+}
+.first_name{
+    grid-area: first-name;
+}
+.last_name{
+    grid-area: last-name;
+}
+.Email{
+    grid-area: email;
+}
+.Job_role{
+    grid-area: job-role;
+}
+.address{
+    grid-area: address;
+}
+.city{
+    grid-area: city;
+}
+.pincode{
+    grid-area: pincode;
+}
+.date{
+    grid-area: date;
+}
+.cv{
+    grid-area: cv;
+}
+.apply{
+    grid-area: apply;
+    margin-left:500px;
+    margin-bottom: 20px;
+}

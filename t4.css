@@ -1,0 +1,67 @@
+.google{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+.profile-bar{
+    align-self: flex-end;;
+    justify-content: flex-end;
+    display: flex;
+    color:white;
+    justify-content: space-between;
+    gap: 10px;
+    margin: 5px;
+    align-items: center;
+    
+}
+.div{
+    justify-self: center;
+}
+.apps >img{
+    width: 23px;
+    height: 23px;
+}
+.profile >img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.language{
+    color: gray;
+}
+.search-buttons >button{
+    color: white;
+    background-color: black;
+    border: 0;
+    margin-left:20px;
+    margin-right:20px;
+}
+.google-logo>img{
+    filter:brightness(0%) invert(1) ;
+    -webkit-filter:brightness(0%) invert(1) ;
+}
+.search-bar>input{
+    width: 400px;
+    border: 1px solid gray;
+    background-color: black;
+    border-radius: 15px;
+    margin-right: -25px;
+    margin-left: -25px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.search-bar{
+    justify-content: center;
+    display: flex;
+}
